@@ -422,11 +422,8 @@ module.exports = router
   - 入口文件 app.js 引用 router
 
 ``` javascript
-
 var router = require('./router')
 
 // 挂载路由
 app.use(router)
-
 ```
-
